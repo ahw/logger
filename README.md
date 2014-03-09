@@ -65,7 +65,7 @@ Enabling and Disabling Logging
 
 Browser
 -------
-Regardless of how the `Logger` constructor is loaded, enabling and disabling logging is determined by the query string. An example query string might look like this: `?log=foo;bar&level=warn`. The full API is as follows:
+Regardless of how the `Logger` constructor is loaded in the browser, enabling and disabling logging is determined by the query string. An example query string might look like this: `?log=foo;bar&level=warn`. There are two query string parameters which control logging output and they are detailed below.
 
 ### log
 
